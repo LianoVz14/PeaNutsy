@@ -1,0 +1,167 @@
+/* Import the "Nerko One" font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+/* Define the custom font class */
+.nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fallback to system fonts */
+    margin: 0;
+    padding: 0;
+    color: #5d3a1a; /* Dark peanut brown */
+    background-color: #f6e8d7; /* Light beige background */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Logo Styles */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem; /* Space between the logo and the heading */
+}
+
+.logo {
+    max-height: 80px; /* Adjust the height to fit within the header */
+    height: auto;
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Header Styles */
+header {
+    background-color: #d2b48c; /* Tan header */
+    color: #5d3a1a; /* Dark peanut brown */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Nerko One', cursive; /* Apply custom font */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #5d3a1a; /* Dark peanut brown */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Nerko One', cursive; /* Apply custom font */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #a0522d; /* A darker shade for hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background: linear-gradient(to right, #fff5e6, #f0e2d8); /* Gradient background */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    padding: 2rem;
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    color: #d2b48c; /* Tan color for headers */
+    border-bottom: 2px solid #d2b48c;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Nerko One', cursive; /* Apply custom font */
+}
+
+.contact-form p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.75rem; /* Increased margin for better spacing */
+    font-weight: bold;
+    color: #5d3a1a; /* Dark peanut brown */
+    font-family: 'Nerko One', cursive; /* Apply custom font */
+    font-size: 1.5rem; /* Increased font size for labels */
+}
+
+.form-group input, .form-group textarea {
+    width: 100%; /* Full width */
+    padding: 1rem; /* Increased padding for better input area */
+    margin-bottom: 1rem;
+    border: 1px solid #d2b48c;
+    border-radius: 8px; /* Slightly more rounded corners */
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: none; /* Disable resizing */
+    height: 100px; /* Adjusted height for the message box */
+}
+
+.char-count {
+    display: block;
+    text-align: right;
+    font-size: 0.9rem;
+    color: #a0522d; /* Darker tan color */
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+form button {
+    background-color: #d2b48c; /* Tan button */
+    color: #ffffff;
+    border: none;
+    padding: 1rem 2.5rem; /* Increased button size */
+    border-radius: 8px; /* Slightly more rounded corners */
+    cursor: pointer;
+    font-family: 'Nerko One', cursive; /* Apply custom font */
+    font-size: 1.25rem; /* Larger font size for the button */
+}
+
+form button:hover {
+    background-color: #bca08c; /* Darker tan on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #d2b48c; /* Tan footer */
+    color: #5d3a1a; /* Dark peanut brown */
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
