@@ -1,0 +1,122 @@
+/* Import the "Nerko One" font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+/* Define the custom font class */
+.nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fallback to system fonts */
+    margin: 0;
+    padding: 0;
+    color: #5d3a1a; /* Dark peanut brown */
+    background-color: #f6e8d7; /* Light beige background */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Logo Styles */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem; /* Space between the logo and the heading */
+}
+
+.logo {
+    max-height: 80px; /* Adjust the height to fit within the header */
+    height: auto;
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Header Styles */
+header {
+    background-color: #d2b48c; /* Tan header */
+    color: #5d3a1a; /* Dark peanut brown */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Nerko One', cursive; /* Apply custom font */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #5d3a1a; /* Dark peanut brown */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Nerko One', cursive; /* Apply custom font */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #a0522d; /* A darker shade for hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background: linear-gradient(to right, #fff5e6, #f0e2d8); /* Gradient background */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #d2b48c; /* Tan color for headers */
+    font-family: 'Nerko One', cursive; /* Apply custom font */
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #5d3a1a; /* Dark peanut brown for text */
+}
+
+.about-content h3 {
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+    color: #d2b48c; /* Tan color for subheaders */
+    font-family: 'Nerko One', cursive; /* Apply custom font */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #d2b48c; /* Tan footer */
+    color: #5d3a1a; /* Dark peanut brown */
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
